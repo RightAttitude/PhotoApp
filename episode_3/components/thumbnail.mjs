@@ -6,7 +6,7 @@ export default class Thumbnail {
   render() {
     return `
       <div class="thumbnail">
-        <img src="${this.props.srcThumbnail}" alt="lamai">
+        <img src="${this.props.srcThumbnail}" alt="web design">
         <div class="caption">
           <h3>${this.props.title}</h3>
           <p>${this.props.shortDesc}</p>
