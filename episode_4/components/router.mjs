@@ -6,11 +6,12 @@ export default class Router {
   }
 
   pushHistory(link) {
+
     history.pushState({}, null, link);
   }
  
   onHistoryChange(event) {
-    console.log(event)
+    console.log(event);
   }
 
   static get instance() {
